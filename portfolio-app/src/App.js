@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import HelloWorld from "./components/HelloWorld";
+
+import './App.css'
+import Sample from "./components/Sample";
 
 function App() {
+const saygoodbye = "See You Again"
+const number = 15;
+const num = 18;
+const name = "Rory";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HelloWorld numberprops={num} name={name}/>
+      <div>{saygoodbye} {number + number}</div>
+      <div className="sample-css">Hello App CSS</div>
+
+      <Sample></Sample>
+
     </div>
   );
 }
