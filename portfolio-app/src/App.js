@@ -1,25 +1,31 @@
-import HelloWorld from "./components/HelloWorld";
-
-import './App.css'
-import Sample from "./components/Sample";
-import Navbar from "./components/Navbar";
+import "./App.css";
+import { useState } from "react";
+import MainLayout from "./layout/MainLayout";
 
 function App() {
-const saygoodbye = "See You Again"
-const number = 15;
-const num = 18;
-const name = "Rory";
+  const [name, setName] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert("My Name Is: " + name);
+  };
 
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <HelloWorld numberprops={num} name={name}/>
-      <div>{saygoodbye} {number + number}</div>
-      <div className="sample-css">Hello App CSS</div>
+    <MainLayout>
+      <div className="App">
+        <br></br>
 
-      <Sample></Sample>
-
-    </div>
+        <form onSubmit={handleSubmit}>
+          <div>What is your name?</div>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input type="submit" />
+        </form>
+      </div>
+    </MainLayout>
   );
 }
 
