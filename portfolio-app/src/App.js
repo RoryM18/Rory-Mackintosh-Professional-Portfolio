@@ -1,13 +1,12 @@
 import "./App.css";
-import MainLayout from "./layout/MainLayout";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <MainLayout>
-      <div className="circle">
-        <div className="profile">This is the profile circle</div>
-      </div>
-    </MainLayout>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
