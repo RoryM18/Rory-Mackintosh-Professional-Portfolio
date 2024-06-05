@@ -24,10 +24,13 @@ const Navbar = () => {
               <NavLinks to="about">About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">Portfolio</NavLinks>
+              <NavLinks to="skills">Skills</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">Contact</NavLinks>
+              <NavLinks to="portfolio">Portfolio</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
