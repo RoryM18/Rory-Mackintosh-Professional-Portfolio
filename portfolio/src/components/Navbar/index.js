@@ -36,7 +36,13 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="github">Github</NavBtnLink>
+            <NavBtnLink
+              to="https://github.com/RoryM18"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
