@@ -56,7 +56,7 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Social Logo</SocialLogo>
+            <SocialLogo to="/">Socials</SocialLogo>
             <WebsiteRights>
               Rory Mackintosh Portfolio © {new Date().getFullYear()} All rights
               reserved.
