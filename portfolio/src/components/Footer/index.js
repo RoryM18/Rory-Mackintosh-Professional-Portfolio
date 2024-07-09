@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
@@ -17,6 +18,10 @@ import {
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -56,7 +61,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Socials</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Socials
+            </SocialLogo>
             <WebsiteRights>
               Rory Mackintosh Portfolio © {new Date().getFullYear()} All rights
               reserved.
