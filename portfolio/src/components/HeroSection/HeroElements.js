@@ -58,17 +58,17 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-    color: #fff;
-    font-size: 48px;
-    text-align: center;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
 
-    @media screen and (max-width: 768px) {
-        font-size 40px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 
-    @media screen and (max-width: 480px) {
-        font-size 32px;
-    }
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
 `;
 
 export const HeroP = styled.p`
@@ -78,13 +78,13 @@ export const HeroP = styled.p`
   text-align: center;
   max-width: 600px;
 
-    @media screen and (max-width: 768px) {
-        font-size 24px;
-    }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 
-    @media screen and (max-width: 480px) {
-        font-size 18px;
-    }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 
 export const HeroBtnWrapper = styled.div`
