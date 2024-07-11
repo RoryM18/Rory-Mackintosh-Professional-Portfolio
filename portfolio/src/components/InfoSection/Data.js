@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Education & Experience",
-  headLine: "1st Class BENG Computing Degree",
+  headLine: "First Class BEng Computing Degree",
   description: "A Little About Me...",
   buttonLable: "See Work",
   imgStart: false,

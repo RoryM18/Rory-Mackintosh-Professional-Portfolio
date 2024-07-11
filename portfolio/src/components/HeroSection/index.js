@@ -27,7 +27,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hello World!</HeroH1>
-        <HeroP>Welcome To The Professional Portfolio Of Rory Mackintosh.</HeroP>
+        <HeroP>Welcome To The Professional Portfolio Of Rory Mackintosh</HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact"

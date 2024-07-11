@@ -13,6 +13,7 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -99,8 +100,9 @@ const Navbar = ({ toggle }) => {
                 to="https://github.com/RoryM18"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Github"
               >
-                Github
+                <FaGithub />
               </NavBtnLink>
             </NavBtn>
           </NavbarContainer>
