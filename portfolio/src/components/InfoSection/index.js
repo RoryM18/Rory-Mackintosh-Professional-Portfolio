@@ -11,6 +11,8 @@ import {
   TopLine,
   Heading,
   Subtitle,
+  Subtitle2,
+  Subtitle3,
   BtnWrap,
   ImgWrap,
   Img,
@@ -25,6 +27,8 @@ const InfoSection = ({
   headLine,
   darkText,
   description,
+  description2,
+  description3,
   buttonLable,
   img,
   alt,
@@ -42,6 +46,8 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headLine}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle2 darkText={darkText}>{description2}</Subtitle2>
+                <Subtitle3 darkText={darkText}>{description3}</Subtitle3>
                 <BtnWrap>
                   <Button
                     to="home"

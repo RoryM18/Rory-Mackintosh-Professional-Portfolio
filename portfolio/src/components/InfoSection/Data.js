@@ -4,8 +4,13 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Education & Experience",
-  headLine: "First Class BEng Computing Degree",
-  description: "A Little About Me...",
+  headLine: "Graduate Of Edinburgh Napier University!",
+  description:
+    "I began my journey at Edinburgh Napier University in September of 2020. I learnt many skill in multiple areas of computing such as Software engineering, database design and development, and Web Technologies.",
+  description2:
+    "I was able to gain real world experince while at university by participating in my third year group project module. I was responsible for backend development of the Mens Shed charity organisation website.",
+  description3:
+    "Among the many projects I had to work on during my education at Edinburgh Napier University, I have worked on a number of personal projects to grow my skills.",
   buttonLable: "See Work",
   imgStart: false,
   img: require("../../images/svg-1.svg").default,
