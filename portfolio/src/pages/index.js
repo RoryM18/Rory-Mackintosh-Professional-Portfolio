@@ -10,6 +10,7 @@ import {
   homeObjTwo,
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
+import Tools from "../components/Tools";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Services />
+      <Tools />
       <InfoSection {...homeObjThree} />
       <InfoSection {...homeObjFour} />
       <Footer />
