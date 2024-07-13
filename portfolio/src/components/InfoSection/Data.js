@@ -27,7 +27,8 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: "Skills",
   headLine: "Languages & Tools",
-  description: "Add boxes...",
+  description:
+    "The following subsection will display the programming languages and tools I have had the most expeirnce working with.",
   buttonLable: "See Work",
   imgStart: true,
   img: require("../../images/svg-2.svg").default,
