@@ -5,6 +5,9 @@ import Icon3 from "../../images/docker-icon.svg";
 import Icon4 from "../../images/sqlite.svg";
 import Icon5 from "../../images/flask.svg";
 import Icon6 from "../../images/react.svg";
+import Icon7 from "../../images/visual-studio.svg";
+import Icon8 from "../../images/intellij-idea.svg";
+import Icon9 from "../../images/vim.svg";
 import {
   ToolsContainer,
   ToolsH1,
@@ -23,6 +26,16 @@ const tools = () => {
         <ToolsCard>
           <ToolsIcon src={Icon1} />
           <ToolsH2>Visual Studio Code</ToolsH2>
+          <ToolsP></ToolsP>
+        </ToolsCard>
+        <ToolsCard>
+          <ToolsIcon src={Icon7} />
+          <ToolsH2>Visual Studio</ToolsH2>
+          <ToolsP></ToolsP>
+        </ToolsCard>
+        <ToolsCard>
+          <ToolsIcon src={Icon8} />
+          <ToolsH2>Intellij</ToolsH2>
           <ToolsP></ToolsP>
         </ToolsCard>
         <ToolsCard>
@@ -48,6 +61,11 @@ const tools = () => {
         <ToolsCard>
           <ToolsIcon src={Icon6} />
           <ToolsH2>React</ToolsH2>
+          <ToolsP></ToolsP>
+        </ToolsCard>
+        <ToolsCard>
+          <ToolsIcon src={Icon9} />
+          <ToolsH2>Vim</ToolsH2>
           <ToolsP></ToolsP>
         </ToolsCard>
       </ToolsWrapper>
