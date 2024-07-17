@@ -29,7 +29,6 @@ export const homeObjTwo = {
   headLine: "Languages & Tools",
   description:
     "The following subsections will display the programming languages and tools I have had the most experience working with.",
-  buttonLable: "See Work",
   imgStart: true,
   img: require("../../images/svg-2.svg").default,
   alt: "skills",
@@ -45,8 +44,8 @@ export const homeObjThree = {
   lightTextDesc: true,
   topLine: "Portfolio",
   headLine: "Education & Personal Projects",
-  description: "What I have done...",
-  buttonLable: "See Work",
+  description:
+    "The following subsection will present a number of both personal and educational projects I have done over the years.",
   imgStart: false,
   img: require("../../images/svg-3.svg").default,
   alt: "Portfolio",
