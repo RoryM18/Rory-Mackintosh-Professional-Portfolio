@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const ToolsContainer = styled.div`
+export const PortfolioContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #010606;
   padding: 50px 0;
 
   @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@ export const ToolsContainer = styled.div`
   }
 `;
 
-export const ToolsWrapper = styled.div`
+export const PortfolioWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -36,8 +36,8 @@ export const ToolsWrapper = styled.div`
   }
 `;
 
-export const ToolsCard = styled.div`
-  background: silver;
+export const PortfolioCard = styled.div`
+  background: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -55,7 +55,7 @@ export const ToolsCard = styled.div`
   }
 `;
 
-export const ToolsIcon = styled.img`
+export const PortfolioIcon = styled.img`
   height: 140px;
   width: 140px;
   margin-bottom: 10px;
@@ -71,9 +71,9 @@ export const ToolsIcon = styled.img`
   }
 `;
 
-export const ToolsH1 = styled.h1`
+export const PortfolioH1 = styled.h1`
   font-size: 2.5rem;
-  color: #000;
+  color: #fff;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {
@@ -81,12 +81,12 @@ export const ToolsH1 = styled.h1`
   }
 `;
 
-export const ToolsH2 = styled.h2`
+export const PortfolioH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
 `;
 
-export const ToolsP = styled.p`
+export const PortfolioP = styled.p`
   font-size: 1rem;
   text-align: center;
 `;

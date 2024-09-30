@@ -12,6 +12,7 @@ import {
 } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Tools from "../components/Tools";
+import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
       <Services />
       <Tools />
       <InfoSection2 {...homeObjThree} />
+      <Portfolio />
       <InfoSection {...homeObjFour} />
       <Footer />
     </>
