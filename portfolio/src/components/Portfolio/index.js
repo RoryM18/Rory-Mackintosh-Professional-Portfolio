@@ -8,6 +8,8 @@ import {
   PortfolioH1,
   PortfolioH2,
   PortfolioP,
+  NavBtn,
+  NavBtnLink,
 } from "./PortfolioElements";
 
 const Portfolio = () => {
@@ -19,6 +21,16 @@ const Portfolio = () => {
           <PortfolioIcon src={Icon1} />
           <PortfolioH2>Portfolio Website</PortfolioH2>
           <PortfolioP>I made a portfolio website</PortfolioP>
+          <NavBtn>
+            <NavBtnLink
+              to="https://github.com/RoryM18"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+            >
+              View Project
+            </NavBtnLink>
+          </NavBtn>
         </PortfolioCard>
         <PortfolioCard>
           <PortfolioIcon src={Icon1} />
