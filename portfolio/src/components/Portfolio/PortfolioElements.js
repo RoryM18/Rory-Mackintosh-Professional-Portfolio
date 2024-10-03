@@ -85,6 +85,7 @@ export const PortfolioH1 = styled.h1`
 export const PortfolioH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  text-align: center;
 `;
 
 export const PortfolioP = styled.p`
@@ -95,6 +96,7 @@ export const PortfolioP = styled.p`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
+  padding: 20px;
 
   @media screen and (max-width: 786px) {
     display: none;
@@ -103,11 +105,11 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #010606;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
-  font-size: 20px;
+  color: white;
+  font-size: 15px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -116,7 +118,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: blue;
+    background: #01bf71;
     color: #010606;
   }
 `;
