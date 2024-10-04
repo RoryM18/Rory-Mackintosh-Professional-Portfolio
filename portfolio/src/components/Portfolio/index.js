@@ -46,7 +46,7 @@ const Portfolio = () => {
           </PortfolioP>
           <NavBtn>
             <NavBtnLink
-              to="https://github.com/RoryM18"
+              to="https://github.com/RoryM18/Honours-Project-Genetic-Algorithm-Planner"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Github"
