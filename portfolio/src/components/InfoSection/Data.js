@@ -62,7 +62,6 @@ export const homeObjFour = {
   topLine: "Contact",
   headLine: "Let's Work Together!",
   description: "Contact Me Now!",
-  buttonLable: "Change this to a form",
   imgStart: true,
   img: require("../../images/svg-4.svg").default,
   alt: "skills",
