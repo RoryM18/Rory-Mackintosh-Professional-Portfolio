@@ -29,33 +29,78 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle> About </FooterLinkTitle>
-              <FooterLink to="/">Home</FooterLink>
+              <FooterLink href="/">Home</FooterLink>
               <FooterLink to="about">About</FooterLink>
+              <FooterLink to="skills">Skills</FooterLink>
               <FooterLink to="portfolio">Portfolio</FooterLink>
               <FooterLink to="contact">Contact</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle> Contact </FooterLinkTitle>
-              <FooterLink to="about">Test 2</FooterLink>
-              <FooterLink to="about">Test 1</FooterLink>
-              <FooterLink to="about">Test 3</FooterLink>
-              <FooterLink to="about">Test 4</FooterLink>
+              <FooterLink
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=rorymac126@gmail.com&su=SUBJECT&body=BODY"
+                target="_blank"
+                aria-label="email"
+              >
+                Email
+              </FooterLink>
+              <FooterLink
+                href="https://www.linkedin.com/in/rory-mackintosh-2984632a6/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                Linkedin
+              </FooterLink>
+              <FooterLink to="about"></FooterLink>
+              <FooterLink to="about"></FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle> Top Projects </FooterLinkTitle>
-              <FooterLink to="about">Test 1</FooterLink>
-              <FooterLink to="about">Test 2</FooterLink>
-              <FooterLink to="about">Test 3</FooterLink>
-              <FooterLink to="about">Test 4</FooterLink>
+              <FooterLink
+                href="https://github.com/RoryM18/Rory-Mackintosh-Professional-Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Github"
+              >
+                Portfolio Website
+              </FooterLink>
+              <FooterLink
+                href="https://github.com/RoryM18/Honours-Project-Genetic-Algorithm-Planner"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Github"
+              >
+                Genetic Algorithm Planner
+              </FooterLink>
+              <FooterLink to="about"></FooterLink>
+              <FooterLink to="about"></FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle> Social Media </FooterLinkTitle>
-              <FooterLink to="Facebook">Test 1</FooterLink>
-              <FooterLink to="Instagram">Test 2</FooterLink>
-              <FooterLink to="Linkedin">Test 3</FooterLink>
-              <FooterLink to="about">Test 4</FooterLink>
+              <FooterLink
+                href="https://www.facebook.com/rory.mackintosh.739"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                Facebook
+              </FooterLink>
+              <FooterLink
+                href="https://www.instagram.com/rorymackinto/"
+                target="_blank"
+                aria-label="Instagram"
+              >
+                Instagram
+              </FooterLink>
+              <FooterLink
+                href="https://www.linkedin.com/in/rory-mackintosh-2984632a6/"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                Linkedin
+              </FooterLink>
+              <FooterLink to="about"></FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
