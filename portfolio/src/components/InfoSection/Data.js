@@ -6,11 +6,11 @@ export const homeObjOne = {
   topLine: "Education & Experience",
   headLine: "Graduate Of Edinburgh Napier University!",
   description:
-    "I began my journey at Edinburgh Napier University in September of 2020. I learnt many skill in multiple areas of computing such as Software engineering, database design and development, and Web Technologies.",
+    "I began my academic journey at Edinburgh Napier University in September 2020, where I developed a wide range of skills across various areas of computing, including software engineering, database design and development, and web technologies.",
   description2:
-    "I was able to gain real world experince while at university by participating in my third year group project module. I was responsible for backend development of the Mens Shed charity organisation website.",
+    "During my time at university, I gained valuable real-world experience through a group project in my third year. I took on the responsibility for backend development of the Men's Shed charity organisation website, which further enhanced my practical knowledge.",
   description3:
-    "Among the many projects I had to work on during my education at Edinburgh Napier University, I have worked on a number of personal projects to grow my skills.",
+    "In addition to my university coursework, I have also worked on several personal projects to continue honing my skills and broaden my expertise.",
   buttonLable: "See Work",
   imgStart: false,
   img: require("../../images/svg-1.svg").default,
