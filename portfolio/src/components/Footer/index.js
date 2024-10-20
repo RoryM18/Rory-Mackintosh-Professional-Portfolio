@@ -74,7 +74,14 @@ const Footer = () => {
               >
                 Genetic Algorithm Planner
               </FooterLink>
-              <FooterLink to="about"></FooterLink>
+              <FooterLink
+                href="https://github.com/RoryM18/sem_group20"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Github"
+              >
+                DevOps Group Project
+              </FooterLink>
               <FooterLink to="about"></FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>

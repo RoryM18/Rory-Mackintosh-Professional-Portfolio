@@ -1,6 +1,7 @@
 import React from "react";
 import Icon1 from "../../images/coding-icon-png-4.png";
 import Icon2 from "../../images/GA.png";
+import Icon3 from "../../images/devops.jpg";
 import {
   PortfolioContainer,
   PortfolioWrapper,
@@ -56,27 +57,17 @@ const Portfolio = () => {
           </NavBtn>
         </PortfolioCard>
         <PortfolioCard>
-          <PortfolioIcon src={Icon1} />
-          <PortfolioH2>Portfolio Website</PortfolioH2>
-          <PortfolioP>I made a portfolio website</PortfolioP>
+          <PortfolioIcon src={Icon3} />
+          <PortfolioH2>DevOps Group Project</PortfolioH2>
+          <PortfolioP>
+            During my second year of university I worked within a group to
+            create, manage, and test a world database. This was done using the
+            Java programming language. Skills such as agile methodologies and
+            JUnit testing were the main focus of the project.
+          </PortfolioP>
           <NavBtn>
             <NavBtnLink
-              to="https://github.com/RoryM18"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Github"
-            >
-              View Project
-            </NavBtnLink>
-          </NavBtn>
-        </PortfolioCard>
-        <PortfolioCard>
-          <PortfolioIcon src={Icon1} />
-          <PortfolioH2>Portfolio Website</PortfolioH2>
-          <PortfolioP>I made a portfolio website</PortfolioP>
-          <NavBtn>
-            <NavBtnLink
-              to="https://github.com/RoryM18"
+              to="https://github.com/RoryM18/sem_group20"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Github"
